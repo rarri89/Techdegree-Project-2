@@ -33,6 +33,15 @@ body {
     color: #383838;
     background: #f5f5f5;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+main {
+    background: #ffffff;
+}
+
+nav {
+    display: block;
 }
 
 h2,
@@ -44,6 +53,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: center;
+}
+
 img {
     max-width: 100%;
 }
@@ -51,11 +64,37 @@ img {
 /* ================================= 
   Base Layout Styles
 ==================================== */
+
 /* ---- Navigation ---- */
+
+.main-nav {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.main-nav li {
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
 
 /* ---- Layout Containers ---- */
 
 /* ---- Page Elements---- */
+
+.profile-pic {
+    width: 190px;
+    text-align: center;
+}
+
+.footer-name {
+    float: left;
+}
+
+.top {
+    float: right;
+}
 
 /* ================================= 
   Media Queries
