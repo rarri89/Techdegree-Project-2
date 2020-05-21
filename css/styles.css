@@ -20,6 +20,11 @@
     src: url('../fonts/roboto/roboto-regular.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto/roboto-bold.ttf');
+}
+
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -51,6 +56,8 @@ h1 {
 h2,
 nav {
     text-transform: uppercase;
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: .95em;
 }
 
 a {
@@ -90,6 +97,10 @@ img {
     padding: 0 16px;
 }
 
+.banner {
+    padding: 24px 16px;
+}
+
 
 /* ---- Page Elements---- */
 
@@ -101,6 +112,15 @@ img {
 .profile-pic {
     width: 190px;
     text-align: center;
+    padding: 10px 5px;
+}
+
+.bio {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 1.1em;
+    color: #ababab;
+    margin: 0 0;
+    padding: 10px 5px;
 }
 
 .footer-name {
