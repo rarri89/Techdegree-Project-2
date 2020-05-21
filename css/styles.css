@@ -44,6 +44,10 @@ nav {
     display: block;
 }
 
+h1 {
+    margin: 0 auto;
+}
+
 h2,
 nav {
     text-transform: uppercase;
@@ -70,18 +74,29 @@ img {
 .main-nav {
     list-style-type: none;
     padding-left: 0;
+    margin: 0;
 }
 
 .main-nav li {
     background: #ffffff;
-    margin: 20px;
-    padding: 20px;
+    margin: 6px;
+    padding: 12px 5px;
     font-weight: bold;
 }
 
 /* ---- Layout Containers ---- */
 
+.main-header {
+    padding: 0 16px;
+}
+
+
 /* ---- Page Elements---- */
+
+.name {
+    padding: 16px;
+    font-family: 'Open Sans Bold', sans-serif;
+}
 
 .profile-pic {
     width: 190px;
@@ -95,6 +110,7 @@ img {
 .top {
     float: right;
 }
+
 
 /* ================================= 
   Media Queries
