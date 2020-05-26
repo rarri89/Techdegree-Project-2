@@ -43,6 +43,7 @@ body {
 
 main {
     background: #ffffff;
+    padding: 0 16px;
 }
 
 nav {
@@ -57,21 +58,30 @@ h2,
 nav {
     text-transform: uppercase;
     font-family: 'Roboto Bold', sans-serif;
-    font-size: .95em;
+    font-size: 1em;
+}
+
+div {
+    padding-bottom: 16px;
 }
 
 a {
     text-decoration: none;
+    color: #000000; 
 }
 
 p {
     text-align: center;
+    margin: 0;
 }
 
 img {
     max-width: 100%;
 }
 
+footer {
+    margin: 30px 16px;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -86,9 +96,17 @@ img {
 .main-nav a {
     display: block;
     background: #ffffff;
+    color: #000000;
     margin: 6px;
     padding: 12px 5px;
-    font-weight: bold;
+}
+
+.main-footer {
+    float: right;
+}
+
+.name-footer {
+    float: left;
 }
 
 /* ---- Layout Containers ---- */
@@ -110,7 +128,7 @@ img {
 }
 
 .profile-pic {
-    width: 190px;
+    width: 75%;
     text-align: center;
     padding: 10px 5px;
 }
@@ -123,6 +141,10 @@ img {
     padding: 10px 5px;
 }
 
+.portfolio {
+    margin: 0;
+    padding: 45px 0;
+}
 
 
 
