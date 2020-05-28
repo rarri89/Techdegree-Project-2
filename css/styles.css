@@ -37,13 +37,12 @@ body {
     line-height: 1.6;
     color: #383838;
     background: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans Light', sans-serif;
     text-align: center;
 }
 
 main {
     background: #ffffff;
-    padding: 0 16px;
 }
 
 nav {
@@ -59,15 +58,12 @@ nav {
     text-transform: uppercase;
     font-family: 'Roboto Bold', sans-serif;
     font-size: 1em;
-}
-
-div {
-    padding-bottom: 16px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: #000000; 
+    color: #383838;
 }
 
 p {
@@ -80,7 +76,9 @@ img {
 }
 
 footer {
-    margin: 30px 16px;
+    padding: 30px 0;
+    border-top: 1px solid #d6d6d6;
+    margin: 0 16px;
 }
 /* ================================= 
   Base Layout Styles
@@ -96,7 +94,6 @@ footer {
 .main-nav a {
     display: block;
     background: #ffffff;
-    color: #000000;
     margin: 6px;
     padding: 12px 5px;
 }
@@ -107,6 +104,7 @@ footer {
 
 .name-footer {
     float: left;
+    font-family: 'Roboto Bold', sans-serif;
 }
 
 /* ---- Layout Containers ---- */
@@ -134,19 +132,52 @@ footer {
 }
 
 .bio {
-    font-family: 'Open Sans Light', sans-serif;
     font-size: 1.1em;
     color: #ababab;
     margin: 0 0;
     padding: 10px 5px;
 }
 
-.portfolio {
+.title {
     margin: 0;
     padding: 45px 0;
 }
 
+.main-content {
+    padding: 0 16px;
+}
 
+.main-content {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content p {
+    font-family: 'Open Sans Light', sans-serif;
+    padding-bottom: 45px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.contact {
+    background: #f5f5f5;
+    padding: 55px 16px;
+}
+
+.contact h2 {
+    padding-bottom: 16px;
+}
+
+.contact p {
+    color: #ababab;
+    padding-bottom: 16px;
+}
+
+.contact a {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: #ababab;
+    padding: 16px 16px;
+}
 
 /* ================================= 
   Media Queries
