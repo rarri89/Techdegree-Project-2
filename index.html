@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Techdegree Project 2: Mobile-first Reponsive Layout</title>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Techdegree Project 2: Mobile-first Reponsive Layout</title>
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
             <p class="bio">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
         </div> <!-- /.banner -->
     </header>
-
+<!--Start Main Content-->
     <main>
         <h2 class="title" id="portfolio">Portfolio</h2>
         <div class="clearfix main-content">
@@ -60,17 +61,20 @@
             <h2>Contact</h2>
             <p class="contact-note">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <div class="contact-info">
-                <p>Phone<a href="tel:11115551234">+1(111)555-1234</a></p>
+                <p>Phone<a href="tel:11115551234">+1 (111) 555-1234</a></p>
                 <p>Email<a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
             </div>        
         </div>
     </main>
-
+<!--End Main Content-->
     <footer class="clearfix">
         <p class="name-footer">Student Name</p>
-        <nav class="main-footer">
-            <p><a href="#top">Back to Top</a></p>
-        </nav>
+        <ul class="main-footer">
+            <li class="top"><a href="#top">back to top</a></li>
+            <li class="full"><a href="#top">home</a></li>
+            <li class="full"><a href="portfolio">portfolio</a></li>
+            <li class="full"><a href="#contact">contact</a></li>
+        </ul>
     </footer>
 </body>
 </html>

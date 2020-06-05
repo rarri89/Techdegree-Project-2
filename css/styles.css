@@ -286,13 +286,19 @@ a:hover {
     .map,
     .photo,
     .calculator {
-        width: 33.3%;
+        width: 33%;
     }
 
     .contact-note,
     .contact-info {
         font-size: 1.3em;
     }
+
+    .contact-note {
+        padding: 20px 215px;
+    }
+
+    
 
 }
 
