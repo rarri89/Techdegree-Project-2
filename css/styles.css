@@ -94,7 +94,6 @@ a {
 }
 
 footer {
-    padding: 30px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -102,7 +101,6 @@ footer {
     padding: 20px;
     background: #f5f5f5;
     border-top: 1px solid #d6d6d6;
-   
 }
 
 /* ---- Psuedo-Classes ---- */
@@ -139,7 +137,6 @@ a:hover {
 }
 
 .main-footer {
-    float: right;
     text-align: right;
 }
 
