@@ -132,14 +132,18 @@ a:hover {
     padding: 12px 5px;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .main-footer {
-    text-align: right;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .name-footer {
-    float: left;
     font-family: 'Roboto Bold', sans-serif;
 }
 
@@ -155,7 +159,7 @@ a:hover {
 /* ---- Layout Containers ---- */
 
 .main-header {
-    padding: 0 16px;
+    padding: 0 20px;
 }
 
 .banner {
@@ -163,7 +167,7 @@ a:hover {
 }
 
 .main-content {
-    padding: 0 16px;
+    padding: 0 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -224,6 +228,32 @@ a:hover {
 
 @media (min-width: 768px){
 
+    .main-nav a {
+        display: inline-block;
+        background: #f5f5f5;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bio {
+        order: -1;
+        align-self: center;
+    }
+
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    .item {
+        flex: 1 2 300px;
+        margin: 5px;
+    }
+
     .top {
         display: none;
     }
@@ -234,8 +264,6 @@ a:hover {
 }
 
 @media (min-width: 1024px){
-
-
     
 
 }
