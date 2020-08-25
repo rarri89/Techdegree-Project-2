@@ -68,7 +68,6 @@ nav {
 }
 
 p {
-    text-align: center;
     margin: 0;
 }
 
@@ -132,12 +131,6 @@ a:hover {
     padding: 12px 5px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .main-footer {
     margin-top: 0;
     margin-bottom: 0;
@@ -171,6 +164,12 @@ a:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* ---- Page Elements---- */
 
 .name {
@@ -180,15 +179,14 @@ a:hover {
 
 .profile-pic {
     width: 75%;
-    text-align: center;
-    padding: 10px 5px;
+    padding: 0 5px;
 }
 
 .bio {
     font-size: 1.1em;
     color: #ababab;
     margin: 0 0;
-    padding: 10px 5px;
+    padding: 0 25px;
 }
 
 .title {
@@ -235,18 +233,16 @@ a:hover {
 
     .banner {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     .bio {
         order: -1;
-        align-self: center;
+        text-align: left;
     }
 
     .main-content {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 20px;
+        display: grid;
     }
 
     .item {
