@@ -42,7 +42,7 @@ body {
     margin: 0;
     line-height: 1.6;
     color: #383838;
-    background: #f5f5f5;
+    background: #fdfafa;
     font-family: 'Open Sans Light', sans-serif;
     text-align: center;
 }
@@ -94,7 +94,7 @@ a {
 footer {
     height: 100px;
     padding: 20px;
-    background: #f5f5f5;
+    background: #fdfafa;
     border-top: 1px solid #d6d6d6;
 }
 
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .banner {
-    padding: 24px 16px;
+    padding: 55px 16px;
 }
 
 .main-content {
@@ -203,7 +203,7 @@ a:hover {
 }
 
 .contact {
-    background: #f5f5f5;
+    background: #fdfafa;
     padding: 55px 16px;
 }
 
@@ -226,9 +226,13 @@ a:hover {
 
 @media (min-width: 768px){
 
+    .main-header {
+        padding-top: 40px;
+    }
+
     .main-nav a {
         display: inline-block;
-        background: #f5f5f5;
+        background: #fdfafa;
     }
 
     .banner {
@@ -239,6 +243,11 @@ a:hover {
     .bio {
         order: -1;
         text-align: left;
+        max-width: 65%;
+    }
+
+    .profile-pic {
+        max-width: 35%;
     }
 
     .main-content {
@@ -252,6 +261,11 @@ a:hover {
         margin: 5px;
     }
 
+    .contact-note {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
     .top {
         display: none;
     }
@@ -262,16 +276,25 @@ a:hover {
 }
 
 @media (min-width: 1024px){
+
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name {
+        margin-top: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
     .main-content {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-}
 
-/* ---- Float Clearfix ---- */
-
-.clearfix::after {
-    content:"";
-    display: table;
-    clear: both;
+    body {
+        padding: 0 40px;
+    }
 }
