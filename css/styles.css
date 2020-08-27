@@ -249,11 +249,7 @@ a:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .item {
-        flex: 1 2 300px;
-        margin: 5px;
+        grid-gap: 20px;
     }
 
     .contact-note {
