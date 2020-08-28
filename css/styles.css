@@ -283,7 +283,8 @@ a:hover {
 
 @media (min-width: 1024px){
 
-    .main-header {
+    .main-header,
+    .blog-header {
         display: flex;
         justify-content: space-between;
     }
