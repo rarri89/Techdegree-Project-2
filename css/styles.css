@@ -155,7 +155,9 @@ a:hover {
 }
 
 .main-content {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -184,13 +186,18 @@ a:hover {
     padding: 0 25px;
 }
 
-.title {
+.title,
+.blog-title {
     margin: 0;
     padding: 45px 0;
 }
 
+.blog-title {
+    border-top: 1px solid #b4b4b4;
+}
+
 .main-content p,
-.blog-content {
+.blog-content p {
     font-family: 'Open Sans Light', sans-serif;
     padding-bottom: 45px;
     width: 90%;
