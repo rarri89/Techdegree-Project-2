@@ -150,6 +150,13 @@ a:hover {
     padding: 0 20px;
 }
 
+.blog-header {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
 .banner{
     padding: 55px 16px;
 }
